@@ -1,6 +1,8 @@
 pandas
 numpy
-spacy
-tqdm
 scikit-learn
 nltk
+tqdm
+spacy
+streamlit
+
