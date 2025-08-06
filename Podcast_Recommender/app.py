@@ -10,7 +10,7 @@ st.set_page_config(page_title="Podcast Recommender", layout="centered")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("podcast_data.csv")
+    df = pd.read_csv("df_popular_podcasts.csv")
     return df
 
 df = load_data()
